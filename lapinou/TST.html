@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pour mon Lapinou ❤️</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-100 flex flex-col items-center justify-center min-h-screen text-center">
+  <h1 class="text-4xl font-bold mb-4 text-pink-600">Tu veux être ma copine ? 🐰❤️</h1>
+
+  <img src="bunny.gif" alt="Lapinou" class="w-64 h-64 animate-bounce" />
+
+  <div class="mt-6 space-x-4">
+    <button onclick="oui()" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full transition">Oui 💖</button>
+    <button id="noBtn" class="bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded-full transition">Non 😢</button>
+  </div>
+
+  <p id="response" class="mt-6 text-lg font-medium text-green-600"></p>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</body>
+</html>
